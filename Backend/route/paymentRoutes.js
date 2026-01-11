@@ -2,8 +2,8 @@
 import express from "express";
 import Razorpay from "razorpay";
 import crypto from "crypto";
-import PaidBook from "../models/PaidBook.js";
-import Purchase from "../models/Purchase.js"; // ✅ Correct unified model
+import PaidBook from "../models/paidBook.js";
+import Purchase from "../models/purchase.js"; // ✅ Correct unified model
 import { authMiddleware } from "../middleware/auth.js";
 
 const router = express.Router();
