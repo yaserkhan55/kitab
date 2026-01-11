@@ -1,7 +1,7 @@
 import express from "express";
 import { authMiddleware } from "../middleware/auth.js";
-import Purchase from "../models/Purchase.js";
-import PaidBook from "../models/PaidBook.js";
+import Purchase from "../models/purchase.js";
+import PaidBook from "../models/paidBook.js";
 
 const router = express.Router();
 
@@ -42,4 +42,3 @@ router.get("/my", authMiddleware, async (req, res) => {
 });
 
 export default router;
-  

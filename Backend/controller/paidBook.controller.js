@@ -1,5 +1,5 @@
 // controllers/paidBook.controller.js
-import PaidBook from "../models/PaidBook.js";
+import PaidBook from "../models/paidBook.js";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";

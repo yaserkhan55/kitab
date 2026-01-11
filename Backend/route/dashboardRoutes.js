@@ -1,5 +1,5 @@
 import express from "express";
-import Purchase from "../models/Purchase.js"; // ✅ unified model
+import Purchase from "../models/purchase.js"; // ✅ unified model
 import { authMiddleware } from "../middleware/auth.js";
 
 const router = express.Router();
