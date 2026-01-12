@@ -1,5 +1,5 @@
 import express from "express";
-import PaidBook from "../models/paidBook.js";
+import PaidBook from "../models/paidBook.model.js";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";

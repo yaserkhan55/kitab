@@ -1,7 +1,7 @@
 import express from "express";
 import { authMiddleware } from "../middleware/auth.js";
-import Purchase from "../models/purchase.js";
-import PaidBook from "../models/paidBook.js";
+import Purchase from "../models/purchase.model.js";
+import PaidBook from "../models/paidBook.model.js";
 
 const router = express.Router();
 

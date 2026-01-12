@@ -14,9 +14,12 @@ const connectDB = async () => {
     }
 
     const conn = await mongoose.connect(URI);
+<<<<<<< HEAD
 =======
     const conn = await mongoose.connect(process.env.MONGO_URI);
 >>>>>>> fde82cc (Fix backend deployment: env vars, DB connection, port binding)
+=======
+>>>>>>> fix/linux-compatibility
     console.log(`✅ MongoDB connected: ${conn.connection.host}`);
   } catch (err) {
     console.error("❌ MongoDB connection error:", err.message);
