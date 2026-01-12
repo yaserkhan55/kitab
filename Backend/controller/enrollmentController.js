@@ -1,5 +1,5 @@
 // controllers/enrollmentController.js
-import Enrollment from "../models/Enrollment.js";
+import Enrollment from "../models/enrollment.model.js";
 
 export const enrollInCourse = async (req, res) => {
   console.log("📥 Incoming enrollment body:", req.body);

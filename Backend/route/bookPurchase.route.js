@@ -1,6 +1,6 @@
 // Backend/route/bookPurchaseRoutes.js
 import express from "express";
-import BookPurchase from "../models/BookPurchase.model.js";
+import BookPurchase from "../models/bookPurchase.model.js";
 import { authMiddleware } from "../middleware/auth.js";
 
 const router = express.Router();
