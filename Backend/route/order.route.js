@@ -2,7 +2,7 @@ import express from "express";
 import Razorpay from "razorpay";
 import crypto from "crypto";
 import mongoose from "mongoose";
-import Book from "../models/book.model.js";
+import Book from "../models/Book.model.js";
 
 const router = express.Router();
 

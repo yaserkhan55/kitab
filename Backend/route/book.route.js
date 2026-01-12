@@ -2,7 +2,7 @@
 
 import express from "express";
 import mongoose from "mongoose";
-import Book from "../models/book.model.js";
+import Book from "../models/Book.model.js";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
